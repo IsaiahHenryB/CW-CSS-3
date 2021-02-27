@@ -1,18 +1,23 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
     margin: 0;
 }
 
-.icon-placeholder {
+.icon{
     width: 25px;
     height: 25px;
-    background-color: #CC0202;
     margin-right: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
+i {
+    color: #a5a5a5;
+}
 
 /* TOP ROW WITH SEARCH BAR  */
 
@@ -134,12 +139,12 @@ h4 {
 
 .container-right {
     padding: 30px 0;
-    width: 81%;
+    width: fit-content;
     background-color: #F9F9F9;
     display: inline-flex;
     flex-wrap: wrap;
     margin: auto;
-    justify-content: ;
+    flex-direction: flex-start;
 }
 
 .container-right > *{
